@@ -63,7 +63,7 @@ export const Card = function ({
             </div>
           </div>
         </div>
-        <div className="pt-4  ">
+        <div className="pt-4 flex flex-wrap ">
           {type === "youtube" && (
             <iframe
               className="w-full  "
@@ -78,7 +78,7 @@ export const Card = function ({
             ></iframe>
           )}
           {type === "twitter" && (
-            <blockquote className="twitter-tweet">
+            <blockquote className="twitter-tweet  ">
               <a href={link.replace("x", "twitter")}></a>
             </blockquote>
           )}
